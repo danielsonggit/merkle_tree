@@ -1,0 +1,39 @@
+# Node.js 依赖
+node_modules/
+
+# Circom 生成的文件
+*.r1cs
+*.sym
+*.wasm
+*.zkey
+*_js/
+verification_key.json
+proof.json
+public.json
+witness.wtns
+
+# Powers of tau 文件
+*.ptau
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# IDE 和编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 日志文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+
+note.md
